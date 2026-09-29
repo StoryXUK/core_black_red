@@ -1,14 +1,20 @@
 const sitePreloader=document.getElementById('sitePreloader');
 if(sitePreloader){
   requestAnimationFrame(()=>sitePreloader.classList.add('is-ready'));
+  const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let minimumElapsed=false,pageLoaded=document.readyState==='complete';
   const dismissPreloader=()=>{
     if(sitePreloader.classList.contains('is-exiting'))return;
     sitePreloader.classList.add('is-exiting');
     document.body.classList.remove('preloader-active');
     setTimeout(()=>sitePreloader.remove(),750)
   };
-  const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  setTimeout(dismissPreloader,reducedMotion?450:2550)
+  const dismissWhenReady=()=>{
+    if(minimumElapsed&&pageLoaded)dismissPreloader()
+  };
+  setTimeout(()=>{minimumElapsed=true;dismissWhenReady()},reducedMotion?450:4400);
+  window.addEventListener('load',()=>{pageLoaded=true;dismissWhenReady()},{once:true});
+  setTimeout(dismissPreloader,reducedMotion?1200:8000)
 }
 
 const icons={home:'<path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v10h13V10"/>',calendar:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/>',bolt:'<path d="m13 2-9 12h8l-1 8 9-12h-8z"/>',leaf:'<path d="M20 4c-8 0-14 4-14 11 0 3 2 5 5 5 7 0 9-8 9-16Z"/><path d="M4 21c3-6 7-9 13-12"/>',message:'<path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>',gift:'<path d="M20 12v9H4v-9M2 7h20v5H2zM12 7v14"/><path d="M12 7H7.5A2.5 2.5 0 1 1 10 4.5C10 7 12 7 12 7Zm0 0h4.5A2.5 2.5 0 1 0 14 4.5C14 7 12 7 12 7Z"/>',bell:'<path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4"/>',chevron:'<path d="m9 18 6-6-6-6"/>',arrow:'<path d="M5 12h14m-5-5 5 5-5 5"/>',plus:'<path d="M12 5v14M5 12h14"/>',play:'<path d="m8 5 11 7-11 7z"/>',video:'<rect x="3" y="5" width="14" height="14" rx="2"/><path d="m17 10 4-2v8l-4-2z"/>',send:'<path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/>',lock:'<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/>'};

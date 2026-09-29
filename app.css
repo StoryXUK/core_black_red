@@ -285,7 +285,7 @@ body.preloader-active {
 }
 
 .site-preloader.is-ready .preloader-progress span {
-  animation: preloader-progress 2.35s .15s cubic-bezier(.65, 0, .35, 1) forwards
+  animation: preloader-progress 4.15s .15s cubic-bezier(.65, 0, .35, 1) forwards
 }
 
 .site-preloader.is-exiting {
