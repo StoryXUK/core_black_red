@@ -5,8 +5,8 @@
   --text: #f5f7f5;
   --muted: #8d9692;
   --line: rgba(255, 255, 255, .09);
-  --lime: #c8ff36;
-  --lime2: #95d813;
+  --lime: #b33531;
+  --lime2: #b33531;
   --radius: 22px;
   --shadow: 0 28px 80px rgba(0, 0, 0, .34)
 }
@@ -89,7 +89,7 @@ button {
   width: 34px;
   height: 34px;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   display: grid;
   place-items: center;
   border-radius: 10px;
@@ -124,7 +124,7 @@ button {
 
 .nav-item.active {
   color: #fff;
-  background: rgba(200, 255, 54, .09)
+  background: rgba(179, 53, 49, .09)
 }
 
 .nav-item.active:before {
@@ -153,7 +153,7 @@ button {
   height: 20px;
   border-radius: 10px;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   font-size: .7rem;
   display: grid;
   place-items: center
@@ -327,7 +327,7 @@ button {
 .status {
   display: inline-block;
   background: var(--lime);
-  color: #101210;
+  color: #fff;
   padding: 6px 10px;
   border-radius: 6px;
   font-size: .65rem;
@@ -377,7 +377,7 @@ button {
 .primary {
   border: 0;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   padding: 14px 20px;
   border-radius: 11px;
   font-weight: 800;
@@ -385,12 +385,12 @@ button {
   align-items: center;
   gap: 28px;
   cursor: pointer;
-  box-shadow: 0 8px 30px rgba(200, 255, 54, .12);
+  box-shadow: 0 8px 30px rgba(179, 53, 49, .12);
   transition: .2s
 }
 
 .primary:hover {
-  background: #d6ff67;
+  background: #c94c47;
   transform: translateY(-2px)
 }
 
@@ -410,8 +410,8 @@ button {
   border-radius: 50%;
   right: 9%;
   top: 12%;
-  background: radial-gradient(circle at 34% 28%, #ebffaf, #a8e529 35%, #5f8d0c 65%, #182604);
-  box-shadow: inset -28px -28px 65px rgba(0, 0, 0, .42), 0 0 90px rgba(200, 255, 54, .14)
+  background: radial-gradient(circle at 34% 28%, #e28b88, #b33531 35%, #6f211e 65%, #240908);
+  box-shadow: inset -28px -28px 65px rgba(0, 0, 0, .42), 0 0 90px rgba(179, 53, 49, .14)
 }
 
 .rings {
@@ -420,7 +420,7 @@ button {
   height: 250px;
   right: -14%;
   top: 15%;
-  border: 1px solid rgba(200, 255, 54, .19);
+  border: 1px solid rgba(179, 53, 49, .19);
   border-radius: 50%;
   transform: rotate(-17deg)
 }
@@ -615,10 +615,10 @@ button {
   height: 130px;
   flex: 0 0 auto;
   border-radius: 16px;
-  background: linear-gradient(145deg, #d1ff55, #5d940d);
+  background: linear-gradient(145deg, #c94c47, #6f211e);
   display: grid;
   place-items: center;
-  color: #152000
+  color: #fff
 }
 
 .meal-art svg {
@@ -679,7 +679,7 @@ button {
 .dates button:hover,
 .dates button.selected {
   background: var(--lime);
-  color: #111;
+  color: #fff;
   font-weight: 800
 }
 
@@ -768,8 +768,8 @@ button {
 .program-feature {
   min-height: 440px;
   border-radius: 24px;
-  background: linear-gradient(155deg, #24421b, #111710 60%);
-  border: 1px solid rgba(200, 255, 54, .15);
+  background: linear-gradient(155deg, #4b1d1b, #180e0d 60%);
+  border: 1px solid rgba(179, 53, 49, .15);
   padding: 34px;
   position: relative;
   overflow: hidden;
@@ -795,7 +795,7 @@ button {
   right: -15px;
   top: -45px;
   font: 800 11rem 'Manrope';
-  color: rgba(200, 255, 54, .07)
+  color: rgba(179, 53, 49, .07)
 }
 
 .exercise-list {
@@ -846,7 +846,7 @@ button {
 }
 
 .exercise.complete {
-  border-color: rgba(200, 255, 54, .22)
+  border-color: rgba(179, 53, 49, .22)
 }
 
 .nutrition-total {
@@ -914,8 +914,8 @@ button {
 }
 
 .meal-row.featured {
-  background: linear-gradient(90deg, rgba(200, 255, 54, .1), var(--panel));
-  border-color: rgba(200, 255, 54, .2)
+  background: linear-gradient(90deg, rgba(179, 53, 49, .1), var(--panel));
+  border-color: rgba(179, 53, 49, .2)
 }
 
 .meal-index {
@@ -1047,7 +1047,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 14px;
-  background: radial-gradient(circle at 100% 0, rgba(200, 255, 54, .04), transparent 30%)
+  background: radial-gradient(circle at 100% 0, rgba(179, 53, 49, .04), transparent 30%)
 }
 
 .bubble {
@@ -1072,7 +1072,7 @@ button {
 
 .user-bubble {
   background: var(--lime);
-  color: #111;
+  color: #fff;
   align-self: flex-end;
   border-bottom-right-radius: 4px
 }
@@ -1102,7 +1102,7 @@ button {
 .composer button {
   border: 0;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   width: 42px;
   height: 42px;
   border-radius: 10px;
@@ -1250,7 +1250,7 @@ button {
   height: 68px;
   border-radius: 50%;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   display: grid;
   place-items: center;
   margin: 0 auto 22px
@@ -1273,7 +1273,7 @@ button {
   bottom: 24px;
   z-index: 110;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   padding: 14px 18px;
   border-radius: 12px;
   font-weight: 700;
@@ -1644,7 +1644,7 @@ button {
 .video-filters button.active {
   background: var(--lime);
   border-color: var(--lime);
-  color: #111
+  color: #fff
 }
 
 .featured-video {
@@ -1750,7 +1750,7 @@ button {
   height: 39px;
   border-radius: 50%;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   display: grid;
   place-items: center;
   transition: .2s
@@ -1964,9 +1964,9 @@ button {
   gap: 35px;
   align-items: center;
   padding: 38px 42px;
-  border: 1px solid rgba(200, 255, 54, .16);
+  border: 1px solid rgba(179, 53, 49, .16);
   border-radius: 28px;
-  background: radial-gradient(circle at 15% 50%, rgba(200, 255, 54, .12), transparent 28%), linear-gradient(125deg, #171c19, #0d0f0e);
+  background: radial-gradient(circle at 15% 50%, rgba(179, 53, 49, .12), transparent 28%), linear-gradient(125deg, #171c19, #0d0f0e);
   box-shadow: var(--shadow);
   overflow: hidden
 }
@@ -1987,8 +1987,8 @@ button {
   align-items: center;
   justify-content: center;
   background: radial-gradient(circle, #1b211d 55%, #101310 56%);
-  border: 1px solid rgba(200, 255, 54, .24);
-  box-shadow: 0 0 70px rgba(200, 255, 54, .09), inset 0 0 30px rgba(200, 255, 54, .04);
+  border: 1px solid rgba(179, 53, 49, .24);
+  box-shadow: 0 0 70px rgba(179, 53, 49, .09), inset 0 0 30px rgba(179, 53, 49, .04);
   position: relative;
   z-index: 2
 }
@@ -2155,19 +2155,19 @@ button {
 
 .challenge-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(200, 255, 54, .2)
+  border-color: rgba(179, 53, 49, .2)
 }
 
 .challenge-card.claimed {
-  border-color: rgba(200, 255, 54, .32);
-  background: linear-gradient(135deg, rgba(200, 255, 54, .08), var(--panel))
+  border-color: rgba(179, 53, 49, .32);
+  background: linear-gradient(135deg, rgba(179, 53, 49, .08), var(--panel))
 }
 
 .challenge-icon {
   width: 43px;
   height: 43px;
   border-radius: 12px;
-  background: rgba(200, 255, 54, .11);
+  background: rgba(179, 53, 49, .11);
   color: var(--lime);
   display: grid;
   place-items: center
@@ -2249,7 +2249,7 @@ button {
 
 .challenge-reward button:hover {
   background: var(--lime);
-  color: #111
+  color: #fff
 }
 
 .challenge-reward button:disabled {
@@ -2322,7 +2322,7 @@ button {
   margin: 0 auto 11px;
   background: radial-gradient(circle, #3a481c, #1b2117);
   color: var(--lime);
-  border: 1px solid rgba(200, 255, 54, .2)
+  border: 1px solid rgba(179, 53, 49, .2)
 }
 
 .badge svg {
@@ -2418,7 +2418,7 @@ button {
 }
 
 .leader-row.you {
-  background: rgba(200, 255, 54, .05);
+  background: rgba(179, 53, 49, .05);
   border-radius: 10px
 }
 
@@ -2587,8 +2587,8 @@ body.light-theme {
   --text: #111512;
   --muted: #68716c;
   --line: rgba(18, 28, 22, .1);
-  --lime: #b9f22f;
-  --lime2: #82c609;
+  --lime: #b33531;
+  --lime2: #b33531;
   --shadow: 0 24px 70px rgba(34, 48, 39, .09);
   background: #f3f5f2;
   color: var(--text)
@@ -2618,7 +2618,7 @@ body.light-theme {
 
 .light-theme .nav-item.active {
   color: #111512;
-  background: rgba(142, 206, 20, .11)
+  background: rgba(179, 53, 49, .11)
 }
 
 .light-theme .sidebar-foot {
@@ -2639,7 +2639,7 @@ body.light-theme {
 .light-theme .profile>span:first-child,
 .light-theme .avatar {
   background: #e9eee9;
-  color: #477200
+  color: #b33531
 }
 
 .light-theme .hero-card {
@@ -2666,7 +2666,7 @@ body.light-theme {
 }
 
 .light-theme .rings {
-  border-color: rgba(101, 158, 11, .25)
+  border-color: rgba(179, 53, 49, .25)
 }
 
 .light-theme .rings:after {
@@ -2721,8 +2721,8 @@ body.light-theme {
 }
 
 .light-theme .program-feature {
-  background: linear-gradient(150deg, #e2f7b5, #f7fbf1 62%);
-  border-color: rgba(105, 161, 15, .18)
+  background: linear-gradient(150deg, #f3d3d1, #f7fbf1 62%);
+  border-color: rgba(179, 53, 49, .18)
 }
 
 .light-theme .program-feature p {
@@ -2730,7 +2730,7 @@ body.light-theme {
 }
 
 .light-theme .program-number {
-  color: rgba(71, 108, 8, .07)
+  color: rgba(179, 53, 49, .07)
 }
 
 .light-theme .video-btn {
@@ -2742,7 +2742,7 @@ body.light-theme {
 }
 
 .light-theme .meal-row.featured {
-  background: linear-gradient(90deg, rgba(185, 242, 47, .15), #fff)
+  background: linear-gradient(90deg, rgba(179, 53, 49, .15), #fff)
 }
 
 .light-theme .messages-shell {
@@ -2754,7 +2754,7 @@ body.light-theme {
 }
 
 .light-theme .chat-body {
-  background: radial-gradient(circle at 100% 0, rgba(151, 209, 32, .08), transparent 34%), #f8faf7
+  background: radial-gradient(circle at 100% 0, rgba(179, 53, 49, .08), transparent 34%), #f8faf7
 }
 
 .light-theme .coach-bubble {
@@ -2805,23 +2805,23 @@ body.light-theme {
 }
 
 .light-theme .rewards-hero {
-  background: radial-gradient(circle at 15% 50%, rgba(157, 219, 27, .17), transparent 30%), linear-gradient(125deg, #fff, #edf3e9);
-  border-color: rgba(110, 166, 18, .18)
+  background: radial-gradient(circle at 15% 50%, rgba(179, 53, 49, .17), transparent 30%), linear-gradient(125deg, #fff, #edf3e9);
+  border-color: rgba(179, 53, 49, .18)
 }
 
 .light-theme .level-ring {
   background: radial-gradient(circle, #fff 55%, #f1f5ee 56%);
-  border-color: rgba(111, 169, 14, .25);
-  box-shadow: 0 0 70px rgba(128, 186, 25, .1), inset 0 0 30px rgba(128, 186, 25, .04)
+  border-color: rgba(179, 53, 49, .25);
+  box-shadow: 0 0 70px rgba(179, 53, 49, .1), inset 0 0 30px rgba(179, 53, 49, .04)
 }
 
 .light-theme .level-ring:before {
   border-color: rgba(30, 44, 35, .09);
-  border-top-color: #7fb80d
+  border-top-color: #b33531
 }
 
 .light-theme .level-ring strong {
-  color: #659b08
+  color: #b33531
 }
 
 .light-theme .level-orbit>i {
@@ -2853,7 +2853,7 @@ body.light-theme {
 }
 
 .light-theme .challenge-icon {
-  background: rgba(128, 190, 14, .12)
+  background: rgba(179, 53, 49, .12)
 }
 
 .light-theme .challenge-reward button {
@@ -2861,7 +2861,7 @@ body.light-theme {
 }
 
 .light-theme .challenge-card.claimed {
-  background: linear-gradient(135deg, rgba(185, 242, 47, .13), #fff)
+  background: linear-gradient(135deg, rgba(179, 53, 49, .13), #fff)
 }
 
 .light-theme .badge {
@@ -2869,8 +2869,8 @@ body.light-theme {
 }
 
 .light-theme .badge>div {
-  background: radial-gradient(circle, #eff8db, #e1edca);
-  border-color: rgba(112, 166, 20, .2)
+  background: radial-gradient(circle, #f6e4e3, #efd0ce);
+  border-color: rgba(179, 53, 49, .2)
 }
 
 .light-theme .badge.locked>div {
@@ -2878,7 +2878,7 @@ body.light-theme {
 }
 
 .light-theme .leader-row.you {
-  background: rgba(157, 215, 37, .1)
+  background: rgba(179, 53, 49, .1)
 }
 
 .light-theme .mobile-nav {
@@ -2991,7 +2991,7 @@ body.light-theme {
 .finish-workout {
   border: 0;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   border-radius: 10px;
   padding: 11px 17px;
   font-weight: 800;
@@ -3180,7 +3180,7 @@ body.light-theme {
 }
 
 .track-exercise.open {
-  border-color: rgba(200, 255, 54, .2)
+  border-color: rgba(179, 53, 49, .2)
 }
 
 .exercise-head {
@@ -3310,7 +3310,7 @@ body.light-theme {
 .set-row.done .set-check {
   background: var(--lime);
   border-color: var(--lime);
-  color: #111
+  color: #fff
 }
 
 .exercise-notes {
@@ -3513,7 +3513,7 @@ body.light-theme {
   border-radius: 50%;
   right: -80px;
   top: -140px;
-  background: radial-gradient(circle, rgba(200, 255, 54, .2), transparent 68%)
+  background: radial-gradient(circle, rgba(179, 53, 49, .2), transparent 68%)
 }
 
 .account-avatar,
@@ -3644,12 +3644,12 @@ body.light-theme {
 
 .account-tile:hover {
   transform: translateY(-3px);
-  border-color: rgba(200, 255, 54, .25)
+  border-color: rgba(179, 53, 49, .25)
 }
 
 .account-tile.feature-tile {
-  background: linear-gradient(135deg, rgba(200, 255, 54, .1), var(--panel));
-  border-color: rgba(200, 255, 54, .18)
+  background: linear-gradient(135deg, rgba(179, 53, 49, .1), var(--panel));
+  border-color: rgba(179, 53, 49, .18)
 }
 
 .tile-icon {
@@ -3690,7 +3690,7 @@ body.light-theme {
   right: 38px;
   top: 15px;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   font-size: .53rem;
   width: 18px;
   height: 18px;
@@ -3747,7 +3747,7 @@ body.light-theme {
   height: 32px;
   border: 3px solid var(--ink);
   background: var(--lime);
-  color: #111;
+  color: #fff;
   border-radius: 50%;
   display: grid;
   place-items: center
@@ -3829,8 +3829,8 @@ body.light-theme {
   min-height: 260px;
   border-radius: 22px;
   padding: 27px;
-  background: linear-gradient(145deg, #394e1c, #131911 68%);
-  border: 1px solid rgba(200, 255, 54, .2);
+  background: linear-gradient(145deg, #51201e, #190e0e 68%);
+  border: 1px solid rgba(179, 53, 49, .2);
   position: relative;
   overflow: hidden
 }
@@ -3838,7 +3838,7 @@ body.light-theme {
 .wallet-balance p {
   font-size: .62rem;
   letter-spacing: .15em;
-  color: #bcd973
+  color: #e3a09d
 }
 
 .wallet-balance strong {
@@ -3993,8 +3993,8 @@ body.light-theme {
   min-height: 245px;
   border-radius: 23px;
   padding: 32px 36px;
-  background: linear-gradient(120deg, #304616, #11170e);
-  border: 1px solid rgba(200, 255, 54, .22);
+  background: linear-gradient(120deg, #4d1b19, #180d0c);
+  border: 1px solid rgba(179, 53, 49, .22);
   display: flex;
   justify-content: space-between;
   align-items: end
@@ -4385,7 +4385,7 @@ body.light-theme {
 .light-theme .account-avatar,
 .light-theme .large-avatar {
   background: linear-gradient(145deg, #e5ecdf, #f8faf6);
-  color: #557f0b
+  color: #b33531
 }
 
 .light-theme .account-edit,
@@ -4407,7 +4407,7 @@ body.light-theme {
 }
 
 .light-theme .account-tile.feature-tile {
-  background: linear-gradient(135deg, rgba(167, 224, 45, .15), #fff)
+  background: linear-gradient(135deg, rgba(179, 53, 49, .15), #fff)
 }
 
 .light-theme .form-grid input,
@@ -4637,7 +4637,7 @@ body.light-theme {
 
 .home-booking-button:hover {
   transform: translateY(-3px);
-  border-color: rgba(200, 255, 54, .38)
+  border-color: rgba(179, 53, 49, .38)
 }
 
 .home-booking-button>span:first-child {
@@ -4671,13 +4671,13 @@ body.light-theme {
 }
 
 .one-to-one-booking {
-  background: linear-gradient(135deg, rgba(200, 255, 54, .15), var(--panel));
-  border-color: rgba(200, 255, 54, .23)
+  background: linear-gradient(135deg, rgba(179, 53, 49, .15), var(--panel));
+  border-color: rgba(179, 53, 49, .23)
 }
 
 .one-to-one-booking .booking-arrow {
   background: var(--lime);
-  color: #111
+  color: #fff
 }
 
 .light-theme .home-booking-button {
@@ -4685,7 +4685,7 @@ body.light-theme {
 }
 
 .light-theme .one-to-one-booking {
-  background: linear-gradient(135deg, rgba(167, 224, 45, .18), #fff)
+  background: linear-gradient(135deg, rgba(179, 53, 49, .18), #fff)
 }
 
 .light-theme .home-booking-button .booking-arrow {
@@ -4709,8 +4709,8 @@ body.light-theme {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  background: radial-gradient(circle at 75% 35%, rgba(200, 255, 54, .26), transparent 24%), linear-gradient(120deg, #172017, #0c100e);
-  border: 1px solid rgba(200, 255, 54, .18);
+  background: radial-gradient(circle at 75% 35%, rgba(179, 53, 49, .26), transparent 24%), linear-gradient(120deg, #172017, #0c100e);
+  border: 1px solid rgba(179, 53, 49, .18);
   overflow: hidden
 }
 
@@ -4871,8 +4871,8 @@ body.light-theme {
 }
 
 .commerce-grid article.popular {
-  border-color: rgba(200, 255, 54, .42);
-  background: linear-gradient(155deg, rgba(200, 255, 54, .1), var(--panel) 48%)
+  border-color: rgba(179, 53, 49, .42);
+  background: linear-gradient(155deg, rgba(179, 53, 49, .1), var(--panel) 48%)
 }
 
 .commerce-grid article>i {
@@ -4882,7 +4882,7 @@ body.light-theme {
   font-style: normal;
   font-size: .48rem;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   padding: 5px 7px;
   border-radius: 10px;
   font-weight: 900
@@ -4936,7 +4936,7 @@ body.light-theme {
 .about-hero {
   padding: 65px 45px;
   border-radius: 25px;
-  background: linear-gradient(130deg, #26351f, #111512);
+  background: linear-gradient(130deg, #34201f, #111512);
   margin-bottom: 14px
 }
 
@@ -5000,7 +5000,7 @@ body.light-theme {
 
 .news-grid .news-feature {
   grid-row: span 2;
-  background: radial-gradient(circle at 78% 20%, rgba(200, 255, 54, .18), transparent 30%), var(--panel);
+  background: radial-gradient(circle at 78% 20%, rgba(179, 53, 49, .18), transparent 30%), var(--panel);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -5097,7 +5097,7 @@ body.light-theme {
   position: absolute;
   inset: 72px;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   display: grid;
   place-items: center;
   font: 900 2rem 'Manrope';
@@ -5503,8 +5503,8 @@ body.light-theme {
 }
 
 .workout-card {
-  background: radial-gradient(circle at 82% 20%, rgba(200, 255, 54, .2), transparent 34%), linear-gradient(145deg, #1b211c, #0e1110);
-  border-color: rgba(200, 255, 54, .2);
+  background: radial-gradient(circle at 82% 20%, rgba(179, 53, 49, .2), transparent 34%), linear-gradient(145deg, #1b211c, #0e1110);
+  border-color: rgba(179, 53, 49, .2);
   display: flex;
   flex-direction: column
 }
@@ -5563,7 +5563,7 @@ body.light-theme {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  border: 1px solid rgba(200, 255, 54, .2);
+  border: 1px solid rgba(179, 53, 49, .2);
   display: grid;
   place-items: center;
   transform: rotate(-12deg)
@@ -5579,7 +5579,7 @@ body.light-theme {
 
 .workout-card-orbit span {
   font: 800 6rem 'Manrope';
-  color: rgba(200, 255, 54, .06)
+  color: rgba(179, 53, 49, .06)
 }
 
 .nutrition-card {
@@ -5709,7 +5709,7 @@ body.light-theme {
 }
 
 .light-theme .workout-card {
-  background: radial-gradient(circle at 82% 20%, rgba(149, 215, 19, .18), transparent 34%), linear-gradient(145deg, #fff, #edf4e9)
+  background: radial-gradient(circle at 82% 20%, rgba(179, 53, 49, .18), transparent 34%), linear-gradient(145deg, #fff, #edf4e9)
 }
 
 .light-theme .nutrition-card {
@@ -5888,8 +5888,8 @@ body.light-theme {
 }
 
 .featured-session {
-  background: linear-gradient(115deg, rgba(200, 255, 54, .1), var(--panel) 58%);
-  border-color: rgba(200, 255, 54, .22)
+  background: linear-gradient(115deg, rgba(179, 53, 49, .1), var(--panel) 58%);
+  border-color: rgba(179, 53, 49, .22)
 }
 
 .session-date {
@@ -6008,7 +6008,7 @@ body.light-theme {
 .powerlifting-preview {
   display: none;
   background: #0e1110;
-  border: 1px solid rgba(200, 255, 54, .18);
+  border: 1px solid rgba(179, 53, 49, .18);
   border-radius: 24px;
   margin: -22px 0 42px;
   overflow: hidden;
@@ -6031,7 +6031,7 @@ body.light-theme {
 .powerlifting-preview>header {
   position: relative;
   padding: 34px 38px 29px;
-  background: radial-gradient(circle at 85% -20%, rgba(200, 255, 54, .16), transparent 44%)
+  background: radial-gradient(circle at 85% -20%, rgba(179, 53, 49, .16), transparent 44%)
 }
 
 .powerlifting-preview>header h2 {
@@ -6120,7 +6120,7 @@ body.light-theme {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(145deg, rgba(200, 255, 54, .16), transparent 52%)
+  background: linear-gradient(145deg, rgba(179, 53, 49, .16), transparent 52%)
 }
 
 .indicative-demo svg {
@@ -6462,7 +6462,7 @@ body.light-theme {
 .builder-filters button.active {
   background: var(--lime);
   border-color: var(--lime);
-  color: #111
+  color: #fff
 }
 
 .builder-library {
@@ -6533,7 +6533,7 @@ body.light-theme {
   content: "";
   position: absolute;
   inset: -40% 55% -40% -20%;
-  background: rgba(200, 255, 54, .16);
+  background: rgba(179, 53, 49, .16);
   transform: rotate(20deg)
 }
 
@@ -6681,7 +6681,7 @@ body.light-theme {
 
 .drop-hint {
   margin-top: 10px;
-  border: 1px dashed rgba(200, 255, 54, .22);
+  border: 1px dashed rgba(179, 53, 49, .22);
   border-radius: 14px;
   min-height: 92px;
   display: grid;
@@ -7039,8 +7039,8 @@ body.light-theme {
   align-items: center;
   gap: 12px;
   padding: 12px;
-  background: linear-gradient(90deg, rgba(200, 255, 54, .12), transparent);
-  border: 1px solid rgba(200, 255, 54, .15);
+  background: linear-gradient(90deg, rgba(179, 53, 49, .12), transparent);
+  border: 1px solid rgba(179, 53, 49, .15);
   border-radius: 12px
 }
 
@@ -7091,9 +7091,9 @@ body.light-theme {
 }
 
 .reaction-button.active {
-  background: rgba(200, 255, 54, .12);
+  background: rgba(179, 53, 49, .12);
   color: var(--text);
-  border-color: rgba(200, 255, 54, .3)
+  border-color: rgba(179, 53, 49, .3)
 }
 
 .habit-list {
@@ -7130,7 +7130,7 @@ body.light-theme {
 
 .habit-list input:checked+i {
   background: var(--lime);
-  color: #111
+  color: #fff
 }
 
 .habit-list input:checked+i svg {
@@ -7154,7 +7154,7 @@ body.light-theme {
   display: flex;
   gap: 10px;
   align-items: center;
-  background: linear-gradient(90deg, rgba(200, 255, 54, .1), transparent);
+  background: linear-gradient(90deg, rgba(179, 53, 49, .1), transparent);
   padding: 13px;
   border-radius: 12px;
   margin-top: 12px
@@ -7260,9 +7260,9 @@ body.light-theme {
 }
 
 .feeling-choices button.active {
-  background: rgba(200, 255, 54, .12);
+  background: rgba(179, 53, 49, .12);
   color: var(--text);
-  border-color: rgba(200, 255, 54, .3)
+  border-color: rgba(179, 53, 49, .3)
 }
 
 .rest-timer-panel {
@@ -7276,7 +7276,7 @@ body.light-theme {
   align-items: center;
   gap: 12px;
   background: #151918;
-  border: 1px solid rgba(200, 255, 54, .28);
+  border: 1px solid rgba(179, 53, 49, .28);
   border-radius: 18px;
   padding: 13px;
   box-shadow: 0 24px 70px rgba(0, 0, 0, .5)
@@ -7686,7 +7686,7 @@ body.light-theme {
 }
 
 .workout-card-actions .outline-button:hover {
-  border-color: rgba(200, 255, 54, .38)
+  border-color: rgba(179, 53, 49, .38)
 }
 
 .powerlifting-video {
@@ -7967,7 +7967,7 @@ body.light-theme {
   font-weight: 800;
   letter-spacing: .09em;
   background: var(--lime);
-  color: #111;
+  color: #fff;
   border-radius: 999px;
   padding: 5px 8px
 }
@@ -7987,7 +7987,7 @@ body.light-theme {
 }
 
 .notification-dropdown>button:hover {
-  background: rgba(200, 255, 54, .06)
+  background: rgba(179, 53, 49, .06)
 }
 
 .notification-dropdown>button>span:last-child {
@@ -8092,13 +8092,13 @@ body.light-theme {
 
   .mobile-business-card {
     min-height: 150px;
-    border: 1px solid rgba(200, 255, 54, .2);
+    border: 1px solid rgba(179, 53, 49, .2);
     border-radius: 22px;
     padding: 23px;
     display: flex;
     align-items: center;
     gap: 17px;
-    background: radial-gradient(circle at 90% 10%, rgba(200, 255, 54, .19), transparent 38%), linear-gradient(135deg, #172019, #0f1311)
+    background: radial-gradient(circle at 90% 10%, rgba(179, 53, 49, .19), transparent 38%), linear-gradient(135deg, #172019, #0f1311)
   }
 
   .mobile-business-mark {
@@ -8107,7 +8107,7 @@ body.light-theme {
     border-radius: 17px;
     flex: 0 0 auto;
     background: var(--lime);
-    color: #111;
+    color: #fff;
     display: grid;
     place-items: center;
     font: 800 1.55rem 'Manrope'
@@ -8132,7 +8132,7 @@ body.light-theme {
     border: 0;
     border-radius: 16px;
     background: var(--lime);
-    color: #111;
+    color: #fff;
     padding: 15px 18px;
     display: flex;
     align-items: center;
@@ -8265,8 +8265,8 @@ body.light-theme {
   .mobile-course-card {
     grid-template-columns: 58px 1fr 15px;
     gap: 14px;
-    background: linear-gradient(135deg, rgba(200, 255, 54, .1), var(--panel));
-    border-color: rgba(200, 255, 54, .2)
+    background: linear-gradient(135deg, rgba(179, 53, 49, .1), var(--panel));
+    border-color: rgba(179, 53, 49, .2)
   }
 
   .course-week {
@@ -8412,12 +8412,12 @@ body.light-theme {
 
   .mobile-product-grid>button:nth-child(1),
   .mobile-product-grid>button:nth-child(2) {
-    background: linear-gradient(145deg, rgba(200, 255, 54, .12), var(--panel));
-    border-color: rgba(200, 255, 54, .2)
+    background: linear-gradient(145deg, rgba(179, 53, 49, .12), var(--panel));
+    border-color: rgba(179, 53, 49, .2)
   }
 
   .light-theme .mobile-business-card {
-    background: radial-gradient(circle at 90% 10%, rgba(139, 194, 18, .18), transparent 38%), #fff;
+    background: radial-gradient(circle at 90% 10%, rgba(179, 53, 49, .18), transparent 38%), #fff;
     color: #111
   }
 
@@ -8454,18 +8454,18 @@ body.light-theme {
 
 /* Mobile business profile, news and light-theme accent refinements */
 body.light-theme {
-  --lime: #9333ff;
-  --lime2: #6d16d9
+  --lime: #b33531;
+  --lime2: #b33531
 }
 
 .light-theme .primary:hover {
-  background: #a855f7
+  background: #c94c47
 }
 
 .notification-news {
   padding: 15px 18px;
   border-bottom: 1px solid var(--line);
-  background: rgba(200, 255, 54, .035)
+  background: rgba(179, 53, 49, .035)
 }
 
 .notification-news-title {
@@ -8512,7 +8512,7 @@ body.light-theme {
 }
 
 .light-theme .notification-news {
-  background: rgba(147, 51, 255, .045)
+  background: rgba(179, 53, 49, .045)
 }
 
 @media(min-width:0px) {
@@ -8541,18 +8541,18 @@ body.light-theme {
   }
 
   .mobile-product-grid>button:nth-child(3) {
-    background: linear-gradient(145deg, rgba(200, 255, 54, .12), var(--panel));
-    border-color: rgba(200, 255, 54, .2)
+    background: linear-gradient(145deg, rgba(179, 53, 49, .12), var(--panel));
+    border-color: rgba(179, 53, 49, .2)
   }
 
   .light-theme .mobile-product-grid>button:nth-child(-n+3) {
-    background: linear-gradient(145deg, rgba(147, 51, 255, .1), #fff);
-    border-color: rgba(147, 51, 255, .22)
+    background: linear-gradient(145deg, rgba(179, 53, 49, .1), #fff);
+    border-color: rgba(179, 53, 49, .22)
   }
 
   .light-theme .mobile-business-card {
-    border-color: rgba(147, 51, 255, .22);
-    background: radial-gradient(circle at 90% 10%, rgba(147, 51, 255, .15), transparent 38%), #fff
+    border-color: rgba(179, 53, 49, .22);
+    background: radial-gradient(circle at 90% 10%, rgba(179, 53, 49, .15), transparent 38%), #fff
   }
 }
 
@@ -8561,14 +8561,14 @@ body.light-theme {
     min-height: 82px;
     margin-top: 10px;
     border: 1px solid var(--line);
-    background: linear-gradient(135deg, rgba(200, 255, 54, .1), var(--panel));
+    background: linear-gradient(135deg, rgba(179, 53, 49, .1), var(--panel));
     color: inherit;
     padding: 17px 18px;
     box-shadow: none
   }
 
   .mobile-book-now:hover {
-    border-color: rgba(200, 255, 54, .35)
+    border-color: rgba(179, 53, 49, .35)
   }
 
   .mobile-book-now small {
@@ -8586,7 +8586,7 @@ body.light-theme {
     padding: 10px;
     border-radius: 50%;
     background: var(--lime);
-    color: #111
+    color: #fff
   }
 
   .mobile-course-card,
@@ -8645,7 +8645,7 @@ body.light-theme {
     border-radius: 50%;
     right: -55px;
     top: -65px;
-    background: rgba(200, 255, 54, .055);
+    background: rgba(179, 53, 49, .055);
     pointer-events: none
   }
 
@@ -8657,7 +8657,7 @@ body.light-theme {
   }
 
   .light-theme .mobile-book-now {
-    background: linear-gradient(135deg, rgba(167, 224, 45, .16), #fff)
+    background: linear-gradient(135deg, rgba(179, 53, 49, .16), #fff)
   }
 
   .light-theme .mobile-course-card,
@@ -8774,7 +8774,7 @@ body.light-theme {
   min-height: 100dvh;
   border: 0;
   border-radius: 0;
-  background: radial-gradient(circle at 50% 42%, rgba(200, 255, 54, .12), transparent 32%), rgba(7, 9, 8, .98);
+  background: radial-gradient(circle at 50% 42%, rgba(179, 53, 49, .12), transparent 32%), rgba(7, 9, 8, .98);
   backdrop-filter: blur(24px);
   display: none;
   grid-template-columns: 1fr;
@@ -8808,7 +8808,7 @@ body.light-theme {
   align-content: center;
   position: relative;
   background: conic-gradient(var(--lime) 0 var(--rest-progress, 360deg), rgba(255, 255, 255, .08) var(--rest-progress, 360deg) 360deg);
-  box-shadow: 0 0 90px rgba(200, 255, 54, .12)
+  box-shadow: 0 0 90px rgba(179, 53, 49, .12)
 }
 
 .rest-timer-ring:before {
@@ -8870,7 +8870,7 @@ body.light-theme {
 }
 
 .light-theme .rest-timer-panel {
-  background: radial-gradient(circle at 50% 42%, rgba(149, 215, 19, .14), transparent 32%), rgba(246, 249, 244, .98)
+  background: radial-gradient(circle at 50% 42%, rgba(179, 53, 49, .14), transparent 32%), rgba(246, 249, 244, .98)
 }
 
 .light-theme .rest-timer-ring:before {
